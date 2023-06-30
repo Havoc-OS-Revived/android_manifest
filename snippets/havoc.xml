@@ -8,6 +8,11 @@
            fetch="https://github.com/Havoc-OS"
            revision="eleven" />
 
+<remote  name="revive"
+           fetch="https://github.com/Havoc-OS-Revived"
+           revision="eleven" />
+
+  
   <remote  name="havoc-devices"
            fetch="https://github.com/Havoc-Devices"
            revision="eleven" />
@@ -26,7 +31,7 @@
 
   <!-- Build -->
   <project path="build/blueprint" name="android_build_blueprint" remote="havoc" />
-  <project path="build/make" name="android_build" remote="havoc">
+  <project path="build/make" name="android_build" remote="revive">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -69,8 +74,8 @@
   <project path="external/tremolo" name="android_external_tremolo" remote="havoc" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="havoc" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="havoc" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="revive" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="revive" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="havoc" />
   <project path="frameworks/native" name="android_frameworks_native" remote="havoc" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="havoc" />
@@ -115,7 +120,7 @@
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="havoc" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="havoc" />
   <project path="packages/apps/SecureElement" name="android_packages_apps_SecureElement" remote="havoc" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="havoc" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="revive" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="havoc" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="havoc" />
   <project path="packages/apps/SoftAPManager" name="android_packages_apps_SoftAPManager" remote="havoc" />
@@ -127,7 +132,7 @@
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="havoc" />
   <project path="packages/modules/CaptivePortalLogin" name="android_packages_modules_CaptivePortalLogin" remote="havoc" />
   <project path="packages/modules/DnsResolver" name="android_packages_modules_DnsResolver" remote="havoc" />
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="havoc" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="revive" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="havoc" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="havoc" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="havoc" />
@@ -147,7 +152,7 @@
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="havoc" />
 
   <!-- System -->
-  <project path="system/bt" name="android_system_bt" remote="havoc" />
+  <project path="system/bt" name="android_system_bt" remote="revive" />
   <project path="system/core" name="android_system_core" remote="havoc" />
   <project path="system/extras" name="android_system_extras" remote="havoc" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="havoc" />
