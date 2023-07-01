@@ -7,7 +7,7 @@
 
 <!--defaults -->
   <project path="external/expat" name="android_external_expat" groups="pdk" remote="lineage"/>
-
+  <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="lineage"/>
   <!-- External -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
