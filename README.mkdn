@@ -1,7 +1,7 @@
 Havoc-OS-Revived!
 ===========
 
-![CorvusROM](https://raw.githubusercontent.com/Astile97/extras/master/corvus/cover.PNG)
+![HavocOS](https://raw.githubusercontent.com/Havoc-OS-Revived/android_manifest/eleven/assets/banner.jpg)
 <p align="center">
 
 # Initialize Local Repository #
@@ -26,7 +26,7 @@ lunch havoc_device-userdebug
 
 # Build the ROM
 m bacon
-
+```
 Credits:
  =======
  * [**HavocOS**](https://github.com/Havoc-OS)
