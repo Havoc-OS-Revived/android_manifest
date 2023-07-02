@@ -137,7 +137,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="revive" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="revive" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="havoc" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="havoc" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="revive" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="havoc" clone-depth="1" />
