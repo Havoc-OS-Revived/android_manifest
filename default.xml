@@ -452,7 +452,6 @@
   <project path="external/xz-java" name="platform/external/xz-java" groups="pdk" />
   <project path="external/XNNPACK" name="platform/external/XNNPACK" groups="pdk" />
   <project path="external/yapf" name="platform/external/yapf" groups="vts,projectarch,pdk" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
