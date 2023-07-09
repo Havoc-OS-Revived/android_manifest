@@ -116,6 +116,8 @@
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="lineage"  revision="lineage-18.1-caf" />
 
   <!-- Packages -->
+  <project path="packages/apps/Traceur" name="android_packages_apps_Traceur" remote="lineage" />
+  <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="lineage" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="lineage" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
