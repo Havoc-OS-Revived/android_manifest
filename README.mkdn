@@ -27,6 +27,12 @@ lunch havoc_device-userdebug
 # Build the ROM
 m bacon
 ```
+
+# Flags #
+```bash   
+# Gapps
+WITH_GAPPS=true
+```
 Credits:
  =======
  * [**HavocOS**](https://github.com/Havoc-OS)
