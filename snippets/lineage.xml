@@ -8,8 +8,11 @@
   <!--defaults -->
   <project path="external/expat" name="android_external_expat" groups="pdk" remote="lineage"/>
   <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="lineage"/>
-   <project path="tools/apksig" name="android_tools_apksig" groups="pdk,tradefed" remote="lineage"/>
-   <project path="external/freetype" name="android_external_freetype" groups="pdk" remote="lineage"/>
+  <project path="tools/apksig" name="android_tools_apksig" groups="pdk,tradefed" remote="lineage"/>
+  <project path="external/freetype" name="android_external_freetype" groups="pdk" remote="lineage"/>
+  <project path="external/aac" name="android_external_aac" groups="pdk" remote="lineage" />
+  <project path="system/ca-certificates" name="android_system_ca-certificates" groups="pdk" remote="lineage" />
+  <project path="packages/apps/QuickAccessWallet" name="android_packages_apps_QuickAccessWallet" groups="pdk-fs" remote="lineage" />
   <!-- External -->
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="lineage"/>
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
