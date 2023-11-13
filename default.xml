@@ -254,7 +254,6 @@
   <project path="external/libcap" name="platform/external/libcap" groups="pdk" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk" />
   <project path="external/libchrome" name="platform/external/libchrome" groups="pdk" />
-  <project path="external/libcups" name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libdaemon" name="platform/external/libdaemon" groups="pdk" />
@@ -440,7 +439,6 @@
   <project path="external/walt" name="platform/external/walt" groups="pdk" />
   <project path="external/wayland" name="platform/external/wayland" groups="pdk" />
   <project path="external/wayland-protocols" name="platform/external/wayland-protocols" groups="pdk" />
-  <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/wycheproof" name="platform/external/wycheproof" groups="pdk" />
@@ -635,7 +633,6 @@
   <project path="packages/modules/CaptivePortalLogin" name="platform/packages/modules/CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/CellBroadcastService" name="platform/packages/modules/CellBroadcastService" groups="pdk" />
   <project path="packages/modules/Cronet" name="platform/packages/modules/Cronet" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/ExtServices" name="platform/packages/modules/ExtServices" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" />
@@ -652,12 +649,10 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
-  <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/AlternativeNetworkAccess" name="platform/packages/services/AlternativeNetworkAccess" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
@@ -728,7 +723,6 @@
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
   <project path="system/bpf" name="platform/system/bpf" groups="pdk" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" />
-  <!-- <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" /> -->
   <project path="system/chre" name="platform/system/chre" groups="pdk" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" />

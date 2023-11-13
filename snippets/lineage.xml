@@ -6,7 +6,11 @@
            revision="refs/heads/lineage-18.1" />
 
   <!--defaults -->
-  <project path="external/expat" name="android_external_expat" groups="pdk" remote="lineage"/>
+  <project path="external/libcups" name="android_external_libcups" remote="lineage"/>
+  <project path="external/webp" name="android_external_webp" remote="lineage"/>
+  <project path="packages/modules/DnsResolver" name="android_packages_modules_DnsResolver" remote="lineage"/>
+  <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" remote="lineage"/>
+  <project path="external/expat" name="android_external_expat" remote="lineage"/>
   <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="lineage"/>
   <project path="tools/apksig" name="android_tools_apksig" groups="pdk,tradefed" remote="lineage"/>
   <project path="external/freetype" name="android_external_freetype" groups="pdk" remote="lineage"/>
