@@ -8,7 +8,12 @@ Havoc-OS-Revived!
 ```bash
    repo init -u https://github.com/Havoc-OS-Revived/android_manifest.git -b eleven --git-lfs
 ```
-  
+
+# Or Initialize Shallow clone #
+```bash
+   repo init --depth=1 -u https://github.com/Havoc-OS-Revived/android_manifest.git -b eleven --git-lfs
+```
+
 # Syncing Repository # 
 ----------------
 
