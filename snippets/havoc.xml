@@ -106,7 +106,7 @@
   <!-- Packages -->
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="revive" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="revive" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="havoc" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="revive" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="havoc" />
   <project path="packages/apps/ConfigCenter" name="android_packages_apps_ConfigCenter" remote="revive" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="havoc" />
@@ -134,7 +134,7 @@
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="revive" />
   <project path="packages/modules/CaptivePortalLogin" name="android_packages_modules_CaptivePortalLogin" remote="havoc" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="revive" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="havoc" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="revive" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="revive" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="revive" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="revive" />
@@ -154,7 +154,7 @@
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="revive" />
-  <project path="system/core" name="android_system_core" remote="havoc" />
+  <project path="system/core" name="android_system_core" remote="revive" />
   <project path="system/extras" name="android_system_extras" remote="havoc" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="havoc" />
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="havoc" />
