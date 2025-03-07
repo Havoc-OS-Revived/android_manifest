@@ -82,6 +82,7 @@
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/giflib" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/external/icu" />
@@ -93,6 +94,8 @@
   <remove-project name="platform/external/pdfium" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/robolectric-shadows" />
+  <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
@@ -171,6 +174,7 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/incremental_delivery" />
+  <remove-project name="platform/system/libfmq" />
   <remove-project name="platform/system/libufdt" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
