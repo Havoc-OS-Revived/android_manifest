@@ -67,6 +67,7 @@
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/cts" />
   <remove-project name="platform/development" />
   <remove-project name="platform/libcore" />
 
@@ -89,6 +90,7 @@
   <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/pdfium" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/robolectric-shadows" />
   <remove-project name="platform/external/tinyalsa" />
