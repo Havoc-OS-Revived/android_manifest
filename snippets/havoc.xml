@@ -56,6 +56,7 @@
   <!-- <project path="external/aac" name="android_external_aac" remote="havoc" /> -->
   <project path="external/boringssl" name="android_external_boringssl" remote="havoc" />
   <project path="external/cldr" name="android_external_cldr" remote="havoc" />
+  <project path="external/dng_sdk" name="android_external_dng_sdk" groups="pdk" remote="revive" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="havoc" />
   <project path="external/giflib" name="android_external_giflib" remote="revive" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="havoc" />
