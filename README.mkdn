@@ -33,6 +33,9 @@ m bacon
 # Gapps
 WITH_GAPPS=true
 
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED=true
+
 # Build Lawnchair
 TARGET_INCLUDE_LAWNCHAIR=true
 
