@@ -6,14 +6,14 @@ Havoc-OS-Revived!
 
 # Initialize Local Repository #
 ```bash
-   repo init -u https://github.com/Havoc-OS-Revived/android_manifest.git -b eleven --git-lfs
+repo init -u https://github.com/Havoc-OS-Revived/android_manifest.git -b eleven --git-lfs
 ```
   
 # Syncing Repository # 
 ----------------
 
 ```bash
-  repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 # Building Environment #
@@ -32,6 +32,12 @@ m bacon
 ```bash   
 # Gapps
 WITH_GAPPS=true
+
+# Build Lawnchair
+TARGET_INCLUDE_LAWNCHAIR=true
+
+# Disable Blurs (Enabled by default)
+TARGET_NOT_USES_BLUR=true
 ```
 Credits:
  =======
