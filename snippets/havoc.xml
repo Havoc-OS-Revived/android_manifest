@@ -11,13 +11,25 @@
           fetch="https://github.com/Havoc-OS"
           revision="ten" />
 
+  <remote name="havoc11"
+          fetch="https://github.com/Havoc-OS"
+          revision="eleven" />
+
+<remote  name="revive"
+           fetch="https://github.com/Havoc-OS-Revived"
+           revision="ten" />
+
   <remote name="havoc-devices"
           fetch="https://github.com/Havoc-Devices"
           revision="ten" />
 
-  <remote name="havoc-gapps"
+  <remote name="havoc-gitlab"
           fetch="https://gitlab.com/Havoc-GApps"
           revision="ten" />
+
+  <remote name="gapps"
+          fetch="https://gitlab.com/MindTheGapps"
+          revision="qoppa" />
 
   <!-- General -->
   <project path="art" name="android_art" remote="havoc" />
@@ -55,15 +67,16 @@
   <project path="external/freetype" name="android_external_freetype" remote="havoc" />
   <project path="external/icu" name="android_external_icu" remote="havoc" />
   <project path="external/libaom" name="android_external_libaom" remote="havoc" />
-  <project path="external/libexif" name="android_external_libexif" remote="havoc" />
+  <project path="external/libexif" name="android_external_libexif" remote="revive" />
   <project path="external/pulse" name="android_external_pulse" remote="havoc" />
   <project path="external/skia" name="android_external_skia" remote="havoc" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="havoc" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="havoc" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="havoc" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="havoc" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="revive" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="revive" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="revive" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="revive" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="havoc" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="havoc" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="havoc" />
@@ -92,9 +105,9 @@
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="havoc" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="havoc" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="havoc" />
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="havoc" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="revive" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="havoc" />
-  <project path="packages/apps/PixelLiveWallpaper" name="android_packages_apps_PixelLiveWallpaper" remote="havoc-gapps" />
+  <project path="packages/apps/PixelLiveWallpaper" name="android_packages_apps_PixelLiveWallpaper" remote="havoc-gitlab" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="havoc" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="havoc" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="havoc" />
@@ -110,11 +123,18 @@
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="havoc" />
   <project path="prebuilts/r8" name="android_prebuilts_r8" remote="havoc" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="havoc11" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="havoc11" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" remote="havoc11" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="havoc11" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="havoc11" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="havoc11" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="havoc11" clone-depth="1" />
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="havoc" />
 
   <!-- System -->
   <project path="system/bpf" name="android_system_bpf" remote="havoc" />
-  <project path="system/bt" name="android_system_bt" remote="havoc" />
+  <project path="system/bt" name="android_system_bt" remote="revive" />
   <project path="system/core" name="android_system_core" remote="havoc" />
   <project path="system/extras" name="android_system_extras" remote="havoc" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="havoc" />
@@ -122,6 +142,7 @@
   <project path="system/libufdt" name="android_system_libufdt" remote="havoc" />
   <project path="system/netd" name="android_system_netd" remote="havoc" />
   <project path="system/nfc" name="android_system_nfc" remote="havoc" />
+  <project path="system/security" name="android_system_security" groups="pdk" remote="revive" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="havoc" />
   <project path="system/timezone" name="android_system_timezone" remote="havoc" />
   <project path="system/update_engine" name="android_system_update_engine" remote="havoc" />
@@ -129,8 +150,9 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="havoc" />
-  <project path="vendor/gapps" name="android_vendor_gapps" remote="havoc-gapps" clone-depth="1" />
-  <project path="vendor/havoc" name="android_vendor_havoc" remote="havoc" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="gapps" clone-depth="1" />
+  <project path="vendor/havoc" name="android_vendor_havoc" remote="revive" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="revive" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="havoc" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="havoc" />
   <project path="vendor/support" name="android_vendor_support" remote="havoc" />
